@@ -1,0 +1,60 @@
+.App-header2 {
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  font-size: 3.5vmin;
+  color: white;
+  z-index: 2;
+}
+.App-header2 h2{
+  margin: 2vmin 0 3vmin 0;
+}
+h4{
+  margin: 0;
+  margin-bottom: 3vmin;
+}
+.Grid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 4vmin;
+  text-align: left;
+}
+.Grid p{
+  float: left;
+  margin: 0;
+  margin-right: 3vmin;
+}
+.Grid input{
+  padding-left: 1vmin;
+  outline: none;
+  font-size: 3.5vmin;
+  border: 0;
+  border-radius: 1000px;
+  margin-bottom: 2vmin;
+}
+.text{
+  width: 125vmin;
+  height: 30vmin;
+  background-color: white;
+  border-radius: 30px;
+  color: black;
+  padding: 2vmin;
+  font-size: 2.5vmin;
+  float: left;
+}
+.next{
+  color: #2196F3;
+  background-color: white;
+  border-radius: 500px;
+  height: 10vmin;
+  width: 10vmin;
+  font-size: 7vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  margin-left: 3vmin;
+  margin-top: 10vmin;
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap');
+.App{
+    height: 100vh;
+}
+.code{
+    background-color: white;
+    color: #2196F3;
+    width: 90vmin;
+    height: 10vmin;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    border-radius: 50px;
+    font-size: 5vmin;
+    padding: 1vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: heartbeat2 1s infinite;
+}
+.code p{
+    margin: 0;
+}
+.App-header .subtext{
+    font-size: 2vmin;
+    padding-top: 2vmin;
+    padding-bottom: 10vmin;
+}
+
+@keyframes heartbeat2
+{
+  0%
+  {
+    transform: scale( 1 )
+  }
+  20%
+  {
+    transform: scale( 1.125 )
+  }
+   40%
+  {
+    transform: scale( 1.25 )
+  }
+}
